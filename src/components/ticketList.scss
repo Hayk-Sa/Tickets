@@ -1,0 +1,32 @@
+.tickets {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(234, 229, 229);
+	padding-top: 20px;
+	&__info {
+		display: flex;
+	}
+	&__time {
+		display: flex;
+	}
+	&__list {
+		margin-bottom: 20px;
+	}
+	&__group {
+		margin-left: 20px;
+	}
+	&__price {
+		display: grid;
+		margin-right: 20px;
+	}
+	&__buy {
+		width: 160px;
+	}
+	&__times {
+		font-size: 30px;
+	}
+	&__filters {
+		display: grid;
+		margin-top: 20px;
+	}
+}
